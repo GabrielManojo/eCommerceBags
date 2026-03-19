@@ -10,12 +10,6 @@ A modern e-commerce web application built with React and Vite that allows users 
 
 ---
 
-## 📄 Description
-
-This project is a simple e-commerce interface where users can explore featured bags and proceed to checkout. The application uses React Router to navigate between pages and passes product data dynamically to create a smooth and interactive shopping experience.
-
----
-
 ## 🚀 Features
 
 - 🏠 Clean and modern homepage UI
