@@ -43,24 +43,6 @@ A modern e-commerce web application built with React and Vite that allows users 
 
 ---
 
-## 📁 Project Structure
-
-src/
-│── components/
-│ └── checkout.jsx
-│
-│── assets/
-│ ├── images
-│
-│── Style/
-│ ├── home.css
-│ └── checkout.css
-│
-│── App.jsx
-│── main.jsx
-
----
-
 ## ▶️ Getting Started
 
 Follow these steps to run the project locally:
