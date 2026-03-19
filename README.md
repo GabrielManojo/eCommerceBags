@@ -1,16 +1,41 @@
-# React + Vite
+# 🛍️ eCommerce Bags
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern e-commerce web application built with React and Vite. This project allows users to browse stylish bags, view featured products, and complete a checkout process with a clean and responsive UI.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Features
 
-## React Compiler
+- 🏠 Homepage with hero section and featured products
+- 🛒 Dynamic product selection using React Router state
+- 💳 Checkout page with:
+  - Contact information form
+  - Shipping address form
+  - Payment details form
+- 📦 Order summary with subtotal, shipping fee, and total calculation
+- ⚡ Fast development with Vite
+- 🎨 Clean and responsive design
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## 🧠 How It Works
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- Products are displayed on the homepage
+- When a user clicks **"Buy Now"**, the selected product is passed to the checkout page using `useLocation`
+- The checkout page dynamically displays:
+  - Product details
+  - Calculated total (including a $10 delivery fee)
+- Submitting the form triggers a confirmation alert
+
+---
+
+## 🛠️ Tech Stack
+
+- React
+- React Router DOM
+- Vite
+- CSS
+
+---
+
+## 📁 Project Structure
