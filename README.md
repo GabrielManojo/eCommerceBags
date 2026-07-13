@@ -1,89 +1,91 @@
-# 🛍️ eCommerce Bags
+# eCommerce Bags
 
-A modern e-commerce web application built with React and Vite that allows users to browse stylish bags and complete a checkout process with dynamic product selection.
+A responsive e-commerce interface built with React and Vite. Users can browse featured bags, select a product, review their order, and complete a simulated checkout flow.
 
----
+> **Project status:** The current version is a front-end demonstration. Checkout submission is simulated and no real payments or orders are processed.
 
-## 🌐 Live Demo
+## Features
 
-🚧 Coming soon (you can deploy on Vercel or Netlify)
+- Responsive product-focused homepage
+- Featured bag collection
+- Navigation between the storefront and checkout with React Router
+- Selected-product data passed to the checkout page
+- Checkout form for contact, shipping, and payment information
+- Dynamic order summary and total calculation
+- Fixed $10 delivery fee included in the final total
+- Simulated order submission
 
----
+## Built With
 
-## 🚀 Features
+- [React](https://react.dev/)
+- [React Router](https://reactrouter.com/)
+- [Vite](https://vite.dev/)
+- JavaScript
+- CSS
 
-- 🏠 Clean and modern homepage UI
-- 🛍️ Featured products section
-- 🔄 Dynamic routing with React Router
-- 📦 Product selection passed to checkout page
-- 💳 Checkout form including:
-  - Contact information
-  - Shipping address
-  - Payment details
-- 💰 Automatic total calculation (includes $10 delivery fee)
-- ⚡ Fast performance using Vite
+## How It Works
 
----
+1. Browse the featured products on the homepage.
+2. Select **Buy Now** on a product.
+3. Review the selected product and calculated total on the checkout page.
+4. Enter contact, shipping, and payment information.
+5. Submit the form to simulate placing an order.
 
-## 🧠 How It Works
+## Run Locally
 
-1. Users browse products on the homepage
-2. Clicking **"Buy Now"** sends the selected product to the checkout page
-3. The checkout page displays product details and calculates the total price
-4. Users fill out the form and place the order (simulated with an alert)
+### Prerequisites
 
----
+- Node.js
+- npm
 
-## 🛠️ Tech Stack
+### Installation
 
-- **React**
-- **React Router DOM**
-- **Vite**
-- **CSS**
-
----
-
-## ▶️ Getting Started
-
-Follow these steps to run the project locally:
-
-### 1. Clone the repository
-
-git clone https://github.com/YOUR_USERNAME/eCommerceBags.git
-
-### 2. Navigate to the project folder
-
+```bash
+git clone https://github.com/GabrielManojo/eCommerceBags.git
 cd eCommerceBags
-
-### 3. Install dependencies
-
 npm install
-
-### 4. Start the development server
-
 npm run dev
+```
 
-Then open your browser and go to:
+Open the local URL displayed by Vite, normally:
+
+```text
 http://localhost:5173
+```
 
----
+## Available Scripts
 
-## 📌 Future Improvements
+```bash
+npm run dev      # Start the development server
+npm run build    # Create a production build
+npm run lint     # Run ESLint
+npm run preview  # Preview the production build
+```
 
-- 🛒 Add shopping cart (multiple products)
-- 🔐 User authentication (login/signup)
-- 💳 Integrate real payments (Stripe)
-- ✅ Form validation and error handling
-- 🌍 Deploy live version (Vercel / Netlify)
+## Current Limitations
 
----
+- Products are currently stored locally rather than loaded from a backend.
+- The checkout does not process or store real payment information.
+- Orders are not saved to a database.
+- The application does not currently include user accounts or authentication.
 
-## 👨‍💻 Author
+## Planned Improvements
+
+- Add a shopping cart with multiple products
+- Add form validation and clearer error messages
+- Connect the storefront to a backend API and database
+- Add user registration and authentication
+- Integrate Stripe test mode for payment processing
+- Add automated component and calculation tests
+- Deploy the application
+
+## Author
 
 **Gabriel Urtado**
 
----
+- [GitHub](https://github.com/GabrielManojo)
+- [LinkedIn](https://www.linkedin.com/in/gabriel-manojo/)
 
-## ⭐ Support
+## License
 
-If you like this project, consider giving it a star ⭐ on GitHub!
+This project was created for learning and portfolio purposes.
